@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumière Studio | Premium Hair &amp; Beauty Salon</title>
+<meta name="description" content="Lumière Studio is a premium local hair &amp; beauty salon offering haircuts, styling, coloring, spa, facials, bridal makeup and more. Book your appointment on WhatsApp today.">
+<meta name="keywords" content="salon near me, hair salon, beauty salon, haircut, hair spa, bridal makeup, facial, manicure, pedicure, hair coloring, book appointment salon">
+<meta name="author" content="Lumière Studio">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Lumière Studio | Premium Hair &amp; Beauty Salon">
+<meta property="og:description" content="Look good. Feel great. Book your next haircut, color, spa or bridal appointment with Lumière Studio — your local premium salon.">
+<meta property="og:image" content="assets/images/hero-salon.jpg">
+<meta property="og:url" content="https://www.lumierestudio.example">
+<meta property="og:locale" content="en_US">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%82%EF%B8%8F%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Lumière Studio",
+  "image": "assets/images/hero-salon.jpg",
+  "@id": "https://www.lumierestudio.example",
+  "url": "https://www.lumierestudio.example",
+  "telephone": "+91-9XXXXXXXXX",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "12 Blossom Avenue, Green Park",
+    "addressLocality": "Your City",
+    "postalCode": "000001",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday"],
+      "opens": "11:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/",
+    "https://www.facebook.com/"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo" aria-label="Lumière Studio home">
+      <span class="logo-mark" aria-hidden="true">✂</span>
+      <span class="logo-text">Lumière<em>Studio</em></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav>About</a></li>
+        <li><a href="#services" class="nav-link" data-nav>Services</a></li>
+        <li><a href="#gallery" class="nav-link" data-nav>Gallery</a></li>
+        <li><a href="#reviews" class="nav-link" data-nav>Reviews</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#appointment" class="btn btn-primary btn-small">Book Appointment</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1600&auto=format&fit=crop" alt="Stylist finishing a client's hair inside Lumière Studio salon" loading="eager">
+      <div class="hero-scrim" aria-hidden="true"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="eyebrow">Your Local Hair &amp; Beauty Studio</p>
+      <h1 class="hero-title">Look Good.<br>Feel Great.</h1>
+      <p class="hero-desc">Precision cuts, radiant color and calm, unhurried care — Lumière Studio is where your city comes to feel like its best self, every single visit.</p>
+      <div class="hero-actions">
+        <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+        <button class="btn btn-outline-light" id="hero-whatsapp" type="button">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          WhatsApp Us
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1200&auto=format&fit=crop" alt="Interior view of the Lumière Studio salon chairs and mirrors" loading="lazy" width="600" height="700">
+      </div>
+      <div class="about-content">
+        <p class="eyebrow">About The Studio</p>
+        <h2 class="section-title">A neighbourhood salon, run like an atelier</h2>
+        <p>Lumière Studio began as a two-chair corner salon with one promise: treat every client like a regular. Years later, that promise still shapes everything — from the products we choose to the way we listen before the first snip. Our stylists train continuously, our tools are sanitised between every guest, and our chairs are yours for as long as you need them.</p>
+        <p>Whether you're here for a five-minute trim or a full bridal transformation, you'll leave with more than a new look — you'll leave lighter.</p>
+        <ul class="stat-row" role="list">
+          <li class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span><span class="stat-label">Years Experience</span></li>
+          <li class="stat"><span class="stat-num" data-count="1000">0</span><span class="stat-suffix">+</span><span class="stat-label">Happy Customers</span></li>
+          <li class="stat"><span class="stat-num" data-count="20">0</span><span class="stat-suffix">+</span><span class="stat-label">Services Offered</span></li>
+          <li class="stat"><span class="stat-num" data-static="5.0">5.0</span><span class="stat-suffix">★</span><span class="stat-label">Average Rating</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">What We Do</p>
+        <h2 class="section-title">Services, tailored to you</h2>
+        <p class="section-sub">From a quick cleanup to a full bridal look — every service below can be booked in one tap on WhatsApp.</p>
+      </div>
+      <div class="services-grid" id="services-grid" aria-live="polite">
+        <!-- populated by js/script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING (signature menu) ============ -->
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Our Work</p>
+        <h2 class="section-title">A peek inside the studio</h2>
+      </div>
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- populated by js/script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why Lumière</p>
+        <h2 class="section-title">Six reasons clients stay with us</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">🎓</span>
+          <h3>Experienced Professionals</h3>
+          <p>Every stylist trains year-round on the latest cuts, colour and techniques.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">🌿</span>
+          <h3>Premium Products</h3>
+          <p>We use only professional-grade, salon-safe products on your hair and skin.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">✨</span>
+          <h3>Hygienic Environment</h3>
+          <p>Tools sanitised between every client, fresh towels, spotless chairs — always.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">💳</span>
+          <h3>Affordable Pricing</h3>
+          <p>Transparent, honest pricing with no hidden add-ons at checkout.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">🤝</span>
+          <h3>Personalised Service</h3>
+          <p>We ask, listen, and consult before every service — your look, your call.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon" aria-hidden="true">📅</span>
+          <h3>Easy Booking</h3>
+          <p>Book an appointment in seconds, straight from WhatsApp — no apps, no calls.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-head light">
+        <p class="eyebrow">Kind Words</p>
+        <h2 class="section-title">What our clients say</h2>
+      </div>
+      <div class="review-slider" id="review-slider">
+        <div class="review-track" id="review-track">
+          <!-- populated by js/script.js -->
+        </div>
+        <button class="review-btn prev" id="review-prev" aria-label="Previous review">&#10094;</button>
+        <button class="review-btn next" id="review-next" aria-label="Next review">&#10095;</button>
+        <div class="review-dots" id="review-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPOINTMENT ============ -->
+  <section class="appointment" id="appointment">
+    <div class="container appointment-grid">
+      <div class="appointment-intro">
+        <p class="eyebrow">Book A Visit</p>
+        <h2 class="section-title">Reserve your chair</h2>
+        <p>Fill in a few details and we'll open WhatsApp with everything ready to send. We'll confirm your slot personally within a few hours.</p>
+        <button class="btn btn-outline" id="appointment-whatsapp-direct" type="button">Prefer to just chat? Message us directly</button>
+      </div>
+
+      <form class="appointment-form" id="appointment-form" novalidate>
+        <div class="form-row">
+          <label for="cust-name">Full Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="cust-name" name="name" autocomplete="name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="cust-mobile">Mobile Number <span aria-hidden="true">*</span></label>
+          <input type="tel" id="cust-mobile" name="mobile" autocomplete="tel" placeholder="e.g. 9876543210" required>
+          <span class="form-error" id="err-mobile"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="cust-service">Select Service <span aria-hidden="true">*</span></label>
+          <select id="cust-service" name="service" required>
+            <option value="">Choose a service</option>
+          </select>
+          <span class="form-error" id="err-service"></span>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label for="cust-date">Preferred Date <span aria-hidden="true">*</span></label>
+            <input type="date" id="cust-date" name="date" required>
+            <span class="form-error" id="err-date"></span>
+          </div>
+          <div>
+            <label for="cust-time">Preferred Time <span aria-hidden="true">*</span></label>
+            <input type="time" id="cust-time" name="time" required>
+            <span class="form-error" id="err-time"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="cust-message">Message <span class="optional">(optional)</span></label>
+          <textarea id="cust-message" name="message" rows="3" placeholder="Anything we should know?"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          Book Appointment via WhatsApp
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow">Visit Or Reach Us</p>
+        <h2 class="section-title">Come say hello</h2>
+
+        <ul class="contact-list" id="contact-list">
+          <!-- populated by js/script.js -->
+        </ul>
+
+        <a href="#" class="btn btn-outline" id="get-directions" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+      <div class="contact-map">
+        <iframe
+          title="Lumière Studio location map"
+          src="https://www.google.com/maps?q=Green+Park+Your+City&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo logo-footer">
+        <span class="logo-mark" aria-hidden="true">✂</span>
+        <span class="logo-text">Lumière<em>Studio</em></span>
+      </a>
+      <p>A premium local hair &amp; beauty salon dedicated to precision cuts, healthy colour and unhurried, personal care.</p>
+      <div class="social-row" id="footer-social">
+        <!-- populated by js/script.js -->
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col" id="footer-services">
+      <h3>Services</h3>
+      <ul>
+        <!-- populated by js/script.js -->
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul class="footer-contact" id="footer-contact">
+        <!-- populated by js/script.js -->
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="year"></span> <span id="footer-salon-name">Lumière Studio</span>. All rights reserved.</p>
+      <p class="footer-credit">Designed And Developed By Swapnil Shinde</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<button class="floating-whatsapp" id="floating-whatsapp" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+</button>
+
+<!-- Back to top -->
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>&uarr;</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
